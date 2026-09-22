@@ -35,7 +35,7 @@ This is the section that makes the architecture explorable rather than abstract.
 Language, framework, key libraries, with versions where they matter.
 Documentation link for each major dependency.
 One line of rationale per learner-selected choice, including their accepted tradeoff.
-Do not choose a stack to fill this template; interview and explain neutral options first.
+Honor established preferences. If needed, explain options or recommend a proportionate approach and its tradeoff; record learner agreement, not an assumed choice.
 Anything unverified: say so plainly and flag it to check early in the build.
 
 ## Where It Runs and How Someone Tries It
@@ -71,7 +71,7 @@ For each piece of data: where it lives, how it gets updated, and what happens wh
 the user leaves and comes back.
 
 ## File Structure
-Full ASCII tree, every file and folder annotated with its purpose.
+Annotated ASCII tree of planned application files and folders, derived from the agreed architecture; omit generated dependency contents. No per-file learner interview.
 
 ```
 project/
@@ -103,5 +103,8 @@ Not exhaustive error handling.
 Decisions made here, each with what was chosen, why, and the tradeoff accepted —
 distinguishing learner choices from implementation details derived from them.
 Never attribute an agent assumption to the learner; resolve consequential gaps before approval.
+Include one genuine learner uncertainty, ambiguity, or unfamiliar concept discussed:
+what clarified it, or the agreed small investigation and evidence needed during the build.
+If none was identified, say so rather than inventing one. No extra technology or exercise required.
 Then anything still unresolved: ambiguities from the self-review, and open questions
 carried over from `prd.md > Open Questions`.

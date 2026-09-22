@@ -2,11 +2,11 @@
 
 For the agent only. This is your architecture knowledge base for `4-spec`: how to support informed learner choices, how to size a project against the learner and the POC boundary, how to simplify without losing the product, and how to explain any of it to someone who doesn't have the vocabulary yet.
 
-## Help the Learner Choose, Without Choosing for Them
+## Help the Learner Choose, Including Recommendations
 
 No prescribed stack catalog. Start from their PRD, coding experience, interests, and constraints. Ask for their technical direction before introducing options.
 
-When they need help—even if they ask for a recommendation—give a manageable spread of genuinely viable alternatives. Explain each at comparable depth: purpose, capabilities, limitations, setup, learning demands, cost, and sharing implications. No preferred choice, ranking, or default. Ask which fits their priorities and why; let them decide.
+When they need help or ask for a recommendation, suggest one proportionate approach grounded in their constraints. Explain its main reason and tradeoff; invite them to accept or change it. Compare alternatives when they illuminate a genuine choice, including relevant setup, learning demands, cost, and sharing implications. Don't enumerate every possible decision or reopen their settled stack. Consequential choices still require learner agreement. This permission is specific to `4-spec`, not the product interviews.
 
 Teach the vocabulary needed for a choice rather than demanding an uninformed guess. Keep every alternative proportional to a proof of concept. A new tool can be the learner's legitimate learning goal; accommodate it by reducing other complexity rather than expanding the product.
 
@@ -74,7 +74,7 @@ Pick whichever is clearest for the specific diagram. Don't make the learner choo
 
 ## File Structure Conventions
 
-Always include a full annotated tree in the spec. `5-build` leans on it. Derive the tree from the learner's chosen architecture; the example below is illustrative, not a prescribed stack.
+Include an annotated tree of the planned application files in the spec; generated dependency contents needn't be enumerated. `5-build` leans on it. Derive the tree from the agreed architecture rather than interviewing about each file; the example below is illustrative, not a prescribed stack.
 
 ```
 project/

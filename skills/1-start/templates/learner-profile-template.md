@@ -15,11 +15,19 @@ Their idea in their own terms, or that they want help finding one. Include inten
 ## Demonstrated Technical and Agent Experience
 Their reported coding background and AI coding-agent experience, distinguished from what you directly observed. Include tools or workflows only if mentioned; don't require a build history.
 Evidence: a short quote or paraphrase.
-> Used by the planning skills (`2-scope`, `3-prd`, `4-spec`) and `5-build` to calibrate technical depth, setup help, and agent-workflow explanations. Explain unfamiliar options and tradeoffs in accessible language before asking them to choose; don't choose for them.
+> Used by the planning skills (`2-scope`, `3-prd`, `4-spec`) and `5-build` to calibrate technical depth, setup help, and agent-workflow explanations. Explain unfamiliar options and tradeoffs in accessible language; `4-spec` may recommend a technical approach for their agreement.
+
+## Planning-Workflow Experience
+Reported experience with planning first or spec-driven development, separate from coding seniority: new, familiar, or not established, with brief evidence in their words. No terminology test or résumé required.
+> Used by every skill to preserve beginner guidance for newcomers and shorten familiar material for experienced plan-first users. Experience alone does not set a communication preference.
 
 ## Desired Learning Outcome
-Anything new they volunteered wanting to try or learn. "Not established" is fine; getting something working is a valid goal. Don't invent a capability target.
-> Used by the planning skills (`2-scope`, `3-prd`, `4-spec`) and `5-build` to find opportunities for explanation or practice without expanding scope automatically.
+One practical learning intention in their words, if known: a tool, an unfamiliar concept, or a reusable way of working with an agent. "Not established" is fine; getting something working is valid. Don't invent a capability target or keep asking until they name one.
+> Used by planning and build to connect one real project moment to practice without expanding scope. `5-build` revisits it in the brief learning wrap-up, not a quiz.
+
+## Learning Moments
+Optional, brief notes about an actual question, decision, or practice relevant to the intention: what happened and where the evidence lives (a document heading, test, or code path). Record only useful moments as they occur; not a log after every exchange. Distinguish an agent explanation from something the learner actually tried or articulated. Don't claim mastery.
+> `5-build` uses this context and the project artifacts to avoid repeating learning activities. Keep personal reflection here, not in public artifacts.
 
 ## Interests, Inspirations, and Goals
 Useful context they chose to share: interests, examples they admire, how the idea fits their life, or who they hope will use it. Summarize only what helps shape the project; omit unnecessary personal details.
@@ -30,8 +38,8 @@ Concepts their stated background or expressed uncertainty suggests need explaini
 > Used by the planning skills (`2-scope`, `3-prd`, `4-spec`) and `5-build` to pitch explanations at the right level.
 
 ## Collaboration and Communication Preferences
-Only preferences they volunteered or explicitly confirmed. Don't infer preferences from their experience level or require an abstract preferences interview.
-> Used by the planning skills (`2-scope`, `3-prd`, `4-spec`) through `5-build` to adapt communication. Concrete choices are asked at their actual decision points; `5-build` still asks learn vs. fast mode at build time.
+Only preferences they volunteered or explicitly confirmed: concise or guided explanations; one-at-a-time or small batches of related questions. Unset means guided, one at a time. No additional preferences questionnaire, and no inference from seniority.
+> Used by all later skills to carry pacing forward without asking again. The curriculum remains beginner-oriented. `5-build` offers learn vs. fast mode at build time and remembers the choice on resume; preferences never waive verification or consequential approvals.
 
 ## Areas Where the Learner Wants Ownership
 Decisions they explicitly said they want to make themselves, if any. Unknown preferences never waive approval requirements.

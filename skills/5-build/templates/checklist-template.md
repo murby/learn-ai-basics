@@ -21,6 +21,8 @@ status: draft
 
 # Build Checklist
 
+Build mode: [learn or fast — record once chosen; carry forward on resume]
+
 ## Slices
 
 - [ ] **1. You can type an entry and see it appear in the list**
@@ -49,13 +51,14 @@ status: draft
 
 ## Hands-on Checkpoints
 
-<!-- Both modes require these three distinct learner pauses. Replace the timing notes
-     with planned slice boundaries; don't add slices solely to reach a pause count.
-     At each, the learner starts the dev server or equivalent, tries the app, and gives
-     feedback. Check a box only after the learner reports back and issues are resolved. -->
+<!-- Plan early feedback where it can shape the remaining build and a final review.
+     Add an integrated core-journey checkpoint only if it offers distinct value.
+     A single-slice build may cover early feedback and final review in one session;
+     record that here rather than inventing separate passes or extra slices.
+     At each planned checkpoint, the learner tries the app and gives feedback.
+     Check a box only after the learner reports back and issues are resolved. -->
 
-- [ ] First usable behavior explored — [after which slice]
-- [ ] Integrated core journey tried — [after which slice, or a separate pass for a tiny build]
+- [ ] Early usable behavior explored — [slice boundary, or shared final-review session for a tiny build]
 - [ ] Final kick-the-tires exploration and feedback completed
 
 ## Final Review
@@ -69,16 +72,22 @@ status: draft
 
 ## Code Tour and App Map
 
-<!-- After final revisions, before submission. Both modes get one ~5-minute tour.
-     Record progress so resuming never repeats completed stops. No extra approval gate. -->
+<!-- This heading is retained for routing compatibility. After final revisions,
+     both modes get one 3–5 minute learning wrap-up, shorter if practice already happened.
+     Guided code route by default for newcomers; a focused alternative for familiar
+     plan-first users. Never require both. Record actual evidence, not claimed mastery.
+     Keep personal reflection in the ignored profile, not this public record.
+     Honor completed older code tours/maps; don't reopen them for new fields. -->
 
-- [ ] One action followed through 2–3 actual code locations with the learner
-- [ ] One optional incidental edit offered — record tried/kept/reverted/declined
-- [ ] `devpost/app-map.html` generated from finished code, checked, and shown
+- [ ] Learning activity complete — guided route, focused alternative, prior practice connected, or brief recap
+- [ ] Optional edit and transfer reflection addressed — offered/declined/already covered/not applicable as appropriate
+- [ ] `devpost/app-map.html` generated from finished code, checked, and shown, including a project-grounded practice to reuse
 
-Route and stops: [action, real paths and symbols; completed stops if interrupted]
-Edit outcome: [what happened, including declined; verification if changed]
-Tour mode: [live app and editor, or explicit static fallback and why]
+Activity and evidence: [what actually happened; real document/test/code references; unfinished work if interrupted]
+Route and stops: [actual paths and symbols; guided stops completed, or reference-only route]
+Edit outcome: [tried/kept/reverted/declined/not applicable; verification if changed]
+Reflection: [offered/answered/declined/already covered — personal answer belongs only in the ignored profile]
+Activity mode: [live app and editor, explicit static fallback, focused alternative, prior practice, or recap]
 
 ## Revisions
 

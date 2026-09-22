@@ -11,11 +11,11 @@ Read `references/prd-guide.md` relative to this skill before you start. It's for
 
 ## Devpost Learn Rules
 
-Keep this Devpost Learn experience learner-led and proof-of-concept sized. Ask open-ended questions one at a time, without suggested answers or multiple-choice tools; explicit consent and sign-off can be yes/no. Calibrate to their coding experience. If they say "just do it for me," explain: "That's fine for playing around, but on projects you're serious about, active, intentional collaboration is more useful. To build those skills, you need to practice making the decisions." Then ask a smaller concrete question, don't take over. The AI may write planning docs after a thorough interview, never invent the learner's intentions.
+Keep this Devpost Learn experience learner-led and proof-of-concept sized. Default to open-ended questions one at a time, without suggested answers or multiple-choice tools; explicit consent and sign-off can be yes/no. Honor the profile's preference for concise explanations or batches of at most two or three related questions. Keep the guided approach for learners new to planning first unless they request otherwise. Calibrate to their coding experience. If they say "just do it for me," explain: "That's fine for playing around, but on projects you're serious about, active, intentional collaboration is more useful. To build those skills, you need to practice making the decisions." Then ask a smaller concrete question, don't take over. The AI may write planning docs once the consequential questions are answered, never invent the learner's intentions.
 
 ## Where Are We
 
-Before anything else, look at `devpost/`. Never infer state from conversation memory — the files are the truth.
+Before anything else, look at the project's `devpost/`. Never infer progress from conversation memory. Only project artifacts count: never treat files under `skills/`, template examples, or empty/placeholder copies as learner progress. Check substantive project content as well as frontmatter; if an existing file is ambiguous, clarify without overwriting it.
 
 1. List which of these exist: `learner-profile.md`, `scope.md`, `prd.md`, `spec.md`, `checklist.md`. Read the `status:` line in each one's frontmatter.
 2. Say back where the learner is, in one sentence.
@@ -29,7 +29,7 @@ Save the document as soon as a first draft exists, with `status: draft`. Set `st
 
 ## Before You Start
 
-Read `devpost/scope.md` closely — **The Unique Kernel**, **The Core Loop**, **What "Working" Looks Like**, **The POC Boundary**, **Explicitly Cut**. Read `devpost/learner-profile.md` for experience level (it sets how deep you push), **Review Format**, and vocabulary notes.
+Read `devpost/scope.md` closely — **The Unique Kernel**, **The Core Loop**, **What "Working" Looks Like**, **The POC Boundary**, **Explicitly Cut**. Read `devpost/learner-profile.md` for experience level, **Planning-Workflow Experience**, **Collaboration and Communication Preferences**, **Desired Learning Outcome**, **Review Format**, and vocabulary notes. Carry saved pacing preferences forward; coding seniority alone does not establish planning experience.
 
 ## Set the Frame
 
@@ -37,7 +37,7 @@ Say: "A PRD—a product requirements document—is the non-technical description
 
 ## The Interview
 
-One question at a time, free-form. Adapt; don't march. Follow up on answers that leave meaningful gaps: "the user sees a list" → "What belongs in each row, and why?" Aim for roughly six meaningful exchanges, counting substantive answers already supplied in earlier stages and useful follow-ups. This is a coverage guide, not a quota of fresh questions. Around that point, offer **Explore More or Review**; optional detail must not become an endless interview. Resolve consequential gaps before approval without reopening settled decisions. Cover the project name, number of screens or surfaces, layout, core interactions, states, and proof of success where relevant. Don't invent extra screens to fill an interview.
+Default to one question at a time, free-form; use small batches if preferred. Adapt; don't march. Follow up on answers that leave meaningful gaps: "the user sees a list" → "What belongs in each row, and why?" Usually aim for four or five meaningful exchanges, counting substantive answers already supplied. Draft sooner when the core journey, concrete behaviors, checkable acceptance criteria, and consequential empty/error states are clear. These are readiness criteria, not a question quota. Offer **Explore More or Review** by that point; resolve consequential gaps without reopening settled decisions. Cover the project name, number of screens or surfaces, layout, core interactions, states, and proof of success where relevant. Don't invent extra screens to fill an interview.
 
 ### 1. Reconstruct the core journey
 
@@ -45,7 +45,7 @@ Cite actual scope headings as question anchors: "In `scope.md > The Core Loop`, 
 
 ### Design beat — 1–2 questions, not a separate interview
 
-For a visual project, briefly explain: "If we leave the visuals unspecified, the build is likely to fall back on generic AI-app styling. A little direction helps it feel like yours." Ask one or two adaptive questions about the look they want, drawing out concrete typography/font character, colors, style, or references where relevant. Let their answer shape the follow-up; don't make every category a required decision or demand design vocabulary. Count these within the six-exchange guide, not on top of it. Carry forward existing preferences instead of asking again. No mockup exercise or full design system. For a CLI or non-visual tool, address output readability or tone only if useful; skip irrelevant visual questions.
+For a visual project, briefly explain: "If we leave the visuals unspecified, the build is likely to fall back on generic AI-app styling. A little direction helps it feel like yours." Ask one or two adaptive questions about the look they want, drawing out concrete typography/font character, colors, style, or references where relevant. Let their answer shape the follow-up; don't make every category a required decision or demand design vocabulary. Count these within the four-to-five-exchange guide, not on top of it. Carry forward existing preferences instead of asking again. No mockup exercise or full design system. For a CLI or non-visual tool, address output readability or tone only if useful; skip irrelevant visual questions.
 
 ### 2. Name the behaviors
 
@@ -65,11 +65,11 @@ Catch growth. Every time a requirement pushes past what fits in 2–4 hours of a
 
 ## Explore More or Review
 
-After roughly six meaningful exchanges, offer once (skip this check-in if they already asked to review the draft):
+When the readiness criteria are met, draft for review without asking permission to write. If they are still exploring, offer once by roughly four or five meaningful exchanges (skip this check-in if they already asked for the draft):
 
 > "We've got enough to sketch the plan. Want to explore anything further, or shall I write it up for review?"
 
-If they choose more, follow the topic they name one question at a time; don't impose another fixed questionnaire. Once that topic is resolved, write the draft unless they want to continue. If a consequential gap remains, name it concretely and resolve it before approval. Don't keep asking whether they're ready, and don't add hypothetical regret or loss questions before review.
+If they choose more, follow the topic they name at their preferred question pacing; don't impose another fixed questionnaire. Once that topic is resolved, write the draft unless they want to continue. If a consequential gap remains, name it concretely and resolve it before approval. Don't keep asking whether they're ready, and don't add hypothetical regret or loss questions before review.
 
 ## Write `devpost/prd.md`
 
@@ -89,7 +89,7 @@ Invite a careful read and ask once: "Does this look good, or would you change an
 
 ## Conversation Style
 
-- **Depth without drag.** Make the exchanges useful, then honor their choice to review.
+- **Depth without drag.** Make the exchanges useful, then honor their choice to review. Don't paraphrase every answer; recap only to resolve ambiguity, explain a tradeoff, or review a decision. Briefly connect a useful acceptance criterion or what-if to their learning intention when it naturally fits—no extra exercise.
 - **No code talk.** If they ask "database or local storage?", redirect warmly: "Great question, that's `4-spec`. For now — what does the user experience?"
 - **Learner authorship.** Ask about layout, behavior, identity, and tradeoffs. You organize and clarify their answers; you don't silently decide the product.
 - **Celebrate good thinking.** When they anticipate an edge case or make a sharp cut, say so. They're learning.

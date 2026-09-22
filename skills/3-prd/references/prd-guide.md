@@ -10,9 +10,9 @@ Never fill gaps with a reconstructed journey and ask for agreement. Instead: "In
 
 ## Thorough Thinking, Small Product
 
-Completeness means a stranger can understand the PoC and verify it, not that the document looks like an enterprise PRD. One surface and one loop can be enough. Aim for roughly six meaningful exchanges, counting existing substantive answers and useful follow-ups, then offer more exploration or draft review. Resolve consequential gaps, but don't extend the interview for optional detail or to fill a question quota.
+Completeness means a stranger can understand the PoC and verify it, not that the document looks like an enterprise PRD. One surface and one loop can be enough. Usually aim for four or five meaningful exchanges, counting existing substantive answers. Draft sooner when the core journey, concrete behaviors, checkable criteria, and consequential empty/error states are clear. Offer more exploration if useful; resolve consequential gaps without extending the interview for optional detail or a question quota.
 
-Ask one short, open-ended question at a time. Avoid suggested answers; yes/no is fine for the single plan-approval question. Useful prompts:
+Default to one short, open-ended question at a time; honor a saved preference for batches of two or three related questions. Avoid suggested answers; yes/no is fine for the single plan-approval question. Useful prompts:
 
 - "What's on the first screen, and how is it arranged?"
 - "What belongs in each result?"
