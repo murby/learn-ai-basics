@@ -21,6 +21,12 @@ Prerequisites: **node** and **git** installed, and an empty folder set aside for
 | `5-build` | Verified, committed build steps, hands-on review and revisions, then a short, personalized learning wrap-up | `devpost/checklist.md`, your app, `devpost/app-map.html` |
 | `6-ship` | Prepare the required demo video and public GitHub repository, then write your own submission and exit-survey answers | video, public repository, learner-written submission |
 
+### Sales & Presentation Tools
+
+| Skill | What happens | Output |
+|---|---|---|
+| `demo-walkthrough` | Interactive 3–4 minute sales demo showing a mildly technical participant building an internal app | 4-stage screen-share walkthrough (with private `skills/demo-walkthrough/presenternotes.md`) |
+
 **What to expect:** about 2–4 hours of active work, ending in a small working proof of concept — not a product. You learn one process: plan before you build through flipped interaction. This is a beginner-oriented curriculum. Onboarding asks about plan-first/spec-driven experience separately from coding experience: newcomers keep guided support; familiar users can keep explanations concise or batch a few related questions. Those preferences carry forward. The agent interviews, probes, and organizes; you supply the ideas and decisions. Scope, PRD, and spec usually aim for four or five meaningful exchanges, counting existing answers, and draft sooner when the important questions are answered. You can explore further if useful. A clear "looks good" approves a displayed plan—no second sign-off. PRD includes 1–2 relevant design questions so visual choices don't default to generic AI styling. Optional HTML companions for scope, PRD, and spec use diagrams and interactive reveals—not just rendered Markdown. The build checklist stays Markdown-only. Speech-to-text helps a lot.
 
 **Build modes:** learn mode includes a hands-on check and code orientation after every slice. Fast mode keeps verification but reduces explanation and pauses for useful early feedback and final review; extra checkpoints are added only when valuable. A tiny, single-slice build can combine those reviews. Your mode is remembered on resume and can be changed.
